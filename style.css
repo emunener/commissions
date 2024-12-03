@@ -1,0 +1,71 @@
+html
+
+body {
+  background-color: #F6D0A8;
+  background-image: url("background.png");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: transparent;
+}
+
+::-moz-selection {
+  color: #F6D0A8;
+  background: #735340;
+}
+
+::selection {
+  color: #F6D0A8;
+  background: #735340;
+}
+
+.site {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  box-sizing: border-box;
+  margin: 8vh;
+  height: 84vh;
+  width: fit-content;
+  border-radius: 20px;
+  border-color: #F6D0A8;
+  border-width: 5px;
+  background-color: #F6D0A8;
+  opacity: 0.88;
+}
+
+.box2 {
+  box-sizing: border-box;
+  height: 79vh;
+  max-width: 1000px;
+  padding: 5vh;
+  padding-bottom: 0px;
+  overflow-y: scroll;
+  overflow-wrap: anywhere;
+}
+
+p {
+  font-family: "Sour Gummy";
+  color: #735340;
+}
