@@ -58,7 +58,8 @@ body {
 .box2 {
   box-sizing: border-box;
   height: 79vh;
-  max-width: 1000px;
+  width: 79vh;
+  max-width: 800px;
   padding: 5vh;
   padding-bottom: 0px;
   overflow-y: scroll;
